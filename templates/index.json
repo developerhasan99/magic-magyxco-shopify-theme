@@ -239,21 +239,24 @@
         "category_FgXNx7": {
           "type": "category",
           "settings": {
-            "text": "Text",
+            "image": "shopify://shop_images/MAGYX_Site_For_Him.webp",
+            "text": "FOR HIM",
             "link": ""
           }
         },
         "category_fY9YXW": {
           "type": "category",
           "settings": {
-            "text": "Text",
+            "image": "shopify://shop_images/MAGYX_Site_For_Her.webp",
+            "text": "FOR HER",
             "link": ""
           }
         },
         "category_fCgN8a": {
           "type": "category",
           "settings": {
-            "text": "Text",
+            "image": "shopify://shop_images/MAGYX_Site_Unisex.webp",
+            "text": "UNISEX",
             "link": ""
           }
         }
