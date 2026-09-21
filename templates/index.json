@@ -137,44 +137,15 @@
         "padding_bottom": 72
       }
     },
-    "home_tabs_fcxFYG": {
-      "type": "home-tabs",
-      "blocks": {
-        "collection_gRbYPe": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "🔥Best Sellers",
-            "collection": "best-sellers",
-            "button_text": "View all"
-          }
-        },
-        "collection_xgUpzQ": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "For Women",
-            "collection": "for-women",
-            "button_text": "View all"
-          }
-        },
-        "collection_3WBTm3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "For Men",
-            "collection": "for-men",
-            "button_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_gRbYPe",
-        "collection_xgUpzQ",
-        "collection_3WBTm3"
-      ],
-      "name": "Homepage Products Tab",
+    "popular_products_VLwpjK": {
+      "type": "popular-products",
+      "name": "Popular Products",
       "settings": {
         "background_color": "#f7f7f7",
-        "heading": "From boardrooms to ballrooms, we've got you covered.",
-        "subheading": "Luxury-inspired fragrances that fit your style, your mood, and your budget.",
+        "heading": "New Scents",
+        "subheading": "",
+        "collection": "new-scents",
+        "show_all_button_text": "View all new scents",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -1003,7 +974,7 @@
     "feature_heighlights_EpJcyT",
     "home_hero_banner_YetQDJ",
     "popular_products_3gqnEi",
-    "home_tabs_fcxFYG",
+    "popular_products_VLwpjK",
     "feature_highlight_cards_HJEfXp",
     "home_category_x4dqJF",
     "image_and_text_TQajG3",
