@@ -37,6 +37,12 @@
             "custom_liquid": "{% render 'scent-profiling' %}"
           }
         },
+        "custom_liquid_dwxaKz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'scent-profiling' %}"
+          }
+        },
         "reactive_atc_LBDQE9": {
           "type": "reactive_atc",
           "settings": {}
@@ -207,6 +213,7 @@
         "title_DkyBTh",
         "custom_rating_text_ehyqmQ",
         "custom_liquid_fep4D7",
+        "custom_liquid_dwxaKz",
         "reactive_atc_LBDQE9",
         "videos_hgU7cm",
         "custom_liquid_QcxgR4",
