@@ -152,33 +152,35 @@
   {% endif %}
 </style>
 
-<div class="py-2" style="background-color: {{ section.settings.background_color }};">
-  <div class="container mx-auto px-4">
-    <div class="flex items-center justify-center">
-      {% if section.settings.link != blank %}
-        <a href="{{ section.settings.link }}" class="text-white font-medium no-underline flex flex-wrap gap-x-3 justify-center items-center text-nowrap text-base md:text-lg">
-          <span>
-            {{ section.settings.prepend_text }}
-          </span>
-          <div id="flipdown" class="flipdown"></div>
-          <span>
-            {{ section.settings.append_text }}
-          </span>
-        </a>
-      {% else %}
-        <div class="text-white font-medium flex flex-wrap gap-x-3 justify-center items-center text-nowrap text-base md:text-lg">
-          <span>
-            {{ section.settings.prepend_text }}
-          </span>
-          <div id="flipdown" class="flipdown"></div>
-          <span>
-            {{ section.settings.append_text }}
-          </span>
-        </div>
-      {% endif %}
+{% unless product.template_suffix == 'payday-60' %}
+  <div class="py-2" style="background-color: {{ section.settings.background_color }};">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-center">
+        {% if section.settings.link != blank %}
+          <a href="{{ section.settings.link }}" class="text-white font-medium no-underline flex flex-wrap gap-x-3 justify-center items-center text-nowrap text-base md:text-lg">
+            <span>
+              {{ section.settings.prepend_text }}
+            </span>
+            <div id="flipdown" class="flipdown"></div>
+            <span>
+              {{ section.settings.append_text }}
+            </span>
+          </a>
+        {% else %}
+          <div class="text-white font-medium flex flex-wrap gap-x-3 justify-center items-center text-nowrap text-base md:text-lg">
+            <span>
+              {{ section.settings.prepend_text }}
+            </span>
+            <div id="flipdown" class="flipdown"></div>
+            <span>
+              {{ section.settings.append_text }}
+            </span>
+          </div>
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
+{% endunless %}
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
