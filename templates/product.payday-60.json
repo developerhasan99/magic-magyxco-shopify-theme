@@ -233,6 +233,7 @@
         "collapsible_tab_HiNKBa",
         "product_reviews_W3CkbE"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-2",
