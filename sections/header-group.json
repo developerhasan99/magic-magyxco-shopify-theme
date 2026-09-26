@@ -15,9 +15,9 @@
       "type": "offer-timebar",
       "name": "Offer Timebar",
       "settings": {
-        "background_color": "#0d5daf",
+        "background_color": "#AF4E0D",
         "forground_color": "#15803d",
-        "prepend_text": "Summer Sale:",
+        "prepend_text": "Autumn Sale",
         "countdown_date": "",
         "append_text": "Buy 3, get 1 free 🎁",
         "link": "shopify://collections/bundle-save"
