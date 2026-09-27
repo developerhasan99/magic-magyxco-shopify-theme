@@ -63,6 +63,7 @@
         "text_FMeEU4",
         "text_RRFPyc"
       ],
+      "disabled": true,
       "name": "Scrolling Text Bar",
       "settings": {
         "text_size": "1.75",
