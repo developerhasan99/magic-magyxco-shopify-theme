@@ -21,10 +21,10 @@
         "title_line_2": "",
         "subtitle": "The world's No. 1 designer-inspired fragrances.",
         "description": "Made by the same experts behind some of the world's best-known perfumes.",
-        "button_text": "Find Your Favorite",
-        "button_link": "shopify://collections/best-sellers",
-        "second_button_text": "",
-        "second_button_link": "",
+        "button_text": "For Him",
+        "button_link": "shopify://collections/for-men",
+        "second_button_text": "For Her",
+        "second_button_link": "shopify://collections/for-women",
         "padding_top": 36,
         "padding_bottom": 36
       }
