@@ -383,6 +383,52 @@
         "padding_bottom": 60
       }
     },
+    "image_and_text_VzNQgQ": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_bygMAj": {
+          "type": "heading",
+          "settings": {
+            "content": "No cheap imports. Made within the EU.",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24,
+            "text_color": "#000000"
+          }
+        },
+        "text_CNVami": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Our European production guarantees the highest quality standards and allows us to control every step of the manufacturing process.<br/><br/>From the selection of premium raw materials to the careful filling of each bottle, we ensure that every product meets our rigorous quality and craftsmanship requirements.</p>",
+            "mobile_content": "",
+            "font_size": 18,
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bygMAj",
+        "text_CNVami"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#ffffff",
+        "image": "shopify://shop_images/MAGYX_Site_02_1.webp",
+        "rounded_image": true,
+        "image_placement": "0",
+        "mobile_image_placement": "under_heading",
+        "button_text": "",
+        "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
     "massive_review_fx3tPy": {
       "type": "massive-review",
       "blocks": {
@@ -900,6 +946,7 @@
     "feature_ships_from_qQTK9w",
     "scent_breakdown_pqKDL9",
     "stacks_up_bzFEM3",
+    "image_and_text_VzNQgQ",
     "massive_review_fx3tPy",
     "popular_products_BptEUV",
     "1770288371f70b6dc1",
