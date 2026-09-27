@@ -14,6 +14,7 @@
       "blocks": {
         "social_proof_review_VJTQkk": {
           "type": "social_proof_review",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Color-Adapting-Foundation-for-Flawless-Skin-Smooche-07-24-2026_05_56_PM.png",
             "author_name": "Deborah",
