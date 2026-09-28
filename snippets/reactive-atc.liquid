@@ -1,17 +1,4 @@
 {% liquid
-  assign ships_from = 'Ships Next Day from Savannah 🇺🇸'
-
-  case localization.country.iso_code
-    when 'AU'
-      assign ships_from = 'Ships Next Day from Sydney 🇦🇺'
-    when 'CA'
-      assign ships_from = 'Ships Next Day from Toronto 🇨🇦'
-    when 'NZ'
-      assign ships_from = 'Ships Next Day from Auckland 🇳🇿'
-    when 'GB'
-      assign ships_from = 'Ships Next Day from London 🇬🇧'
-  endcase
-
   assign product_form_id = 'product-form-' | append: section.id
   assign selected_variant = product.selected_or_first_available_variant
 
@@ -135,7 +122,7 @@
       fill="#1a1a1a"></circle>
   </svg>
   <div>
-    <p class="m-0 font-semibold tracking-normal text-black leading-snug">{{ ships_from }}</p>
+    <p class="m-0 font-semibold tracking-normal text-black leading-snug">Ships Next Day from {% render 'ships-from-location' %}</p>
   {% comment %} {% unless localization.country.iso_code == 'US' %}
                   <p class="m-0 text-gray-500 tracking-normal text-sm">Delivered in 3-7 business days.</p>
           {% endunless %} {% endcomment %}

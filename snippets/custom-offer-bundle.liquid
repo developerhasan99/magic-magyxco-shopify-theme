@@ -17,19 +17,6 @@
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 {%- liquid
-  assign ships_from = 'Ships Next Day from Savannah 🇺🇸'
-
-  case localization.country.iso_code
-    when 'AU'
-      assign ships_from = 'Ships Next Day from Sydney 🇦🇺'
-    when 'CA'
-      assign ships_from = 'Ships Next Day from Toronto 🇨🇦'
-    when 'NZ'
-      assign ships_from = 'Ships Next Day from Auckland 🇳🇿'
-    when 'GB'
-      assign ships_from = 'Ships Next Day from London 🇬🇧'
-  endcase
-
   assign next_bundle = product.metafields.custom.next_bundle
   if next_bundle != blank
     assign next_bundle_product = next_bundle.value
@@ -180,7 +167,7 @@
       fill="#1a1a1a"></circle>
   </svg>
   <div>
-    <p class="m-0 font-semibold tracking-normal text-black leading-snug">{{ ships_from }}</p>
+    <p class="m-0 font-semibold tracking-normal text-black leading-snug">Ships Next Day from {% render 'ships-from-location' %}</p>
   </div>
 </div>
 
